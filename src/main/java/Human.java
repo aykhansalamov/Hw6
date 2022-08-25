@@ -11,6 +11,9 @@ public class Human {
     private String[][] schedule;
     Family family;
 
+    public Human(String mike, String maxwell, int i, int i1, String[][] strings, Family testFamily) {
+    }
+
     protected void finalize()
     {
         System.out.println("Finalize method called from Human class");

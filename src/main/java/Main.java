@@ -23,7 +23,7 @@ public class Main {
 
         Human child = new Human("Michael", "Karleone", 1977,
                 90,
-                new String[][]{{"monday, do exercise"}, {"tuesday", "relax"}}
+                new String[][]{{DayOfWeek.TUESDAY.name() + "do exercise"}, {DayOfWeek.WEDNESDAY.name(), "relax"}}
         );
         child.setPet(p);
 
@@ -50,7 +50,7 @@ public class Main {
         Family family = new Family(mother, father, new ArrayList<>(), p);
 
         family.addChild(child);
-        family.deleteChild(0);
+      //  family.deleteChild(0);
 
         System.out.println(family);
         System.out.println("Equality of dogs is " + pet.getNickName().equals(p.getNickName()));

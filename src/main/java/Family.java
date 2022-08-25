@@ -75,6 +75,9 @@ public class Family {
     public void deleteChild(int indexOfChild) {
         children.remove(indexOfChild);
     }
+    public void deleteChildByName(Human child) {
+        children.remove(child);
+    }
 
     public int countFamily() {
 
